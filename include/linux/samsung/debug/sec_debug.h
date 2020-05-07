@@ -232,7 +232,7 @@ static inline void sec_debug_update_restart_reason(const char *cmd, const int in
 static inline void sec_debug_prepare_for_wdog_bark_reset(void) {}
 static inline void emerg_pet_watchdog(void) {}
 static inline char *sec_debug_get_erased_command_line(void) { return boot_command_line; }
-static inline uint64_t get_pa_dump_sink(void) { return 0ULL };
+static inline uint64_t get_pa_dump_sink(void) { return 0ULL; }
 static inline void sec_debug_upload_cause_str(enum sec_debug_upload_cause_t type, char *str, size_t len) {}
 
 /* FIXME: __deprected */
