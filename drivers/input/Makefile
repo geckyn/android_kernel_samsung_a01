@@ -9,6 +9,8 @@ input-core-y := input.o input-compat.o input-mt.o ff-core.o
 # HS60 add for SR-ZQL1695-01000000583 by liufurong at 20190724 start
 obj-$(CONFIG_INPUT_TOUCHSCREEN)	+= sec_cmd.o
 # HS60 add for SR-ZQL1695-01000000583 by liufurong at 20190724 end
+obj-$(CONFIG_INPUT_TOUCHSCREEN_TCLM)	+= sec_tclm.o
+obj-$(CONFIG_INPUT_TOUCHSCREEN_TCLMV2)	+= sec_tclm_v2.o
 
 obj-$(CONFIG_INPUT_FF_MEMLESS)	+= ff-memless.o
 obj-$(CONFIG_INPUT_POLLDEV)	+= input-polldev.o
