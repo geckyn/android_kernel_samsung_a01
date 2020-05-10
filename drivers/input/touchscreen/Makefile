@@ -120,3 +120,4 @@ obj-$(CONFIG_TOUCHSCREEN_FTS_1871)	+= focaltech_touch_1871/
 obj-$(CONFIG_TOUCHSCREEN_HIMAX_COMMON)	+= hxchipset/
 obj-$(CONFIG_TOUCHSCREEN_ILI)	+= ILI_touch/
 # huaqin add for HS70-35 bringup TP function by zhouzichun at 2019/09/29 end
+obj-$(CONFIG_TOUCHSCREEN_SEC_INCELL_TS) += sec_incell_ts/

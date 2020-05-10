@@ -1458,4 +1458,5 @@ config TOUCHSCREEN_ILI
 
 		  If unusre, say N.
 
+source "drivers/input/touchscreen/sec_incell_ts/Kconfig"
 endif
